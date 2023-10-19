@@ -18,7 +18,7 @@ class BasicSwitchTest extends BaseIOTest {
     void mainPrintsDefault() {
         BasicSwitch.main(null);
 
-        assertOutEquals("default\n");
+          assertOutEquals("default\n");
     }
 
     @Test
